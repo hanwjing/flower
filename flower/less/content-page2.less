@@ -1,0 +1,82 @@
+@charset "utf8";
+.content-page2{
+  .container{
+    .category-product{
+      >.nav-menu{
+        >.navbar-collapse{
+          position: relative;
+          text-align: center;
+          >.jtv-title{
+            text-align: center;
+            >h2{
+            }
+          }
+          >ul{
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-bottom: 0.05rem;
+            text-align: center;
+            >li{
+              display: inline-block;
+              font-weight: bold;
+              padding: 0 0.1rem;
+              /*width: 20%;*/
+              text-align: center;
+              &.active{
+                opacity: 1;
+                visibility: inherit;
+                position: inherit;
+                -vendor-animation-duration: 0.3s;
+                -vendor-animation-delay: 1s;
+                -vendor-animation-iteration-count: infinite;
+                >a{
+                  color:#e62263;
+                }
+              }
+            }
+          }
+        }
+      }
+      >.tab-container{
+        >.tab-panel{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          opacity: 0;
+          visibility: hidden;
+          &.active{
+            opacity: 1;
+            visibility: inherit;
+            position: inherit;
+            -vendor-animation-duration: 0.3s;
+            -vendor-animation-delay: 1s;
+            -vendor-animation-iteration-count: infinite;
+          }
+          >.category-products{
+            >.products-grid{
+              >li{
+                padding: 0 0.1rem;
+                &:hover img{
+                  transition: all 1.6s;
+                  opacity: 0.4;
+                  transform: scale(1.2,1.2);
+                }
+                &:hover button{
+                  background-color: #e62263 !important;
+                  border: 1px solid #e62263 !important;
+                  color: #fff;
+                }
+                &:hover .jtv-box-hover{
+                  transform: scale(1) !important;
+                  opacity: 1 !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

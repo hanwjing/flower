@@ -1,0 +1,35 @@
+@charset "utf8";
+.latest_blog {
+  margin-top: 0.2rem;
+}
+.latest_blog .container .gtt_title {
+  text-align: center;
+  font-size: 0.32rem;
+}
+.latest_blog .container > .gtt_content > .row > div > div {
+  border: 1px solid #ccc;
+}
+.latest_blog .container > .gtt_content > .row > div > div > .gtt_img img {
+  width: 100%;
+}
+.latest_blog .container > .gtt_content > .row > div > div > .gtt_words {
+  padding-left: 0.2rem;
+  color: #666;
+  font-size: 10px;
+}
+.latest_blog .container > .gtt_content > .row > div > div > .gtt_words > .gtt_title123 {
+  margin-top: 0.15rem;
+  font-size: 16px;
+  /*text-align: center;*/
+  font-weight: 600;
+  color: #333;
+}
+.latest_blog .container > .gtt_content > .row > div > div > .gtt_words > .gtt_title123:hover {
+  color: #e62263;
+}
+.latest_blog .container > .gtt_content > .row > div > div > .gtt_words > .gtt_dire {
+  font-weight: 600;
+}
+.latest_blog .container > .gtt_content > .row > div > div > .gtt_words > .gtt_dire:hover {
+  color: #E62263;
+}

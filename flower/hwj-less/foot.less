@@ -1,0 +1,163 @@
+@import "var";
+.hwj_foot{
+    background-color: #283139;
+    color:#fff;
+    .hwj_foot_part1{
+        .container{
+            padding-top: 25px;
+            .hwj_foot_ulCommon{
+                a{
+                    display: inline-block;
+                    color:@color2;
+                    padding:7px 0;
+                }
+                span{
+                    color:@color2;
+                }
+            }
+            .hwj_foot_4{
+                //width:100%;
+                p{
+                    color: @color2;
+                    font-size: 14px;
+                    margin-top: 20px;
+                }
+                form{
+                    //width:100%;
+                    margin:20px 0;
+                    input{
+                        width:230px;
+                        padding:10px 12px;
+                        border-radius: 3px;
+                        margin: 0 10px 10px 0;
+                    }
+                    button{
+                        padding:8px 12px 8px 12px;
+                        background-color: @color;
+                        color: @color3;
+                        border:3px solid @color;
+                        font-size: 12px;
+                        font-weight: 600;
+                        overflow: hidden;
+                        border-radius: 3px;
+                        span{
+                            margin-right: 6px;
+                        }
+                    }
+                }
+                .hwj_foot_fonts{
+                    ul{
+                        li{
+                            margin: 10px 10px 10px 0;
+                            float: left;
+                            a{
+                                padding: 8px 13px;
+                                color:@color3;
+                                border-radius: 3px;
+                                &:hover{
+                                    color: @color3 !important;
+                                }
+                            }
+                        }
+                        li:first-child{
+                            a{
+                                background-color: #3C5B9B;
+                            }
+                        }
+                        li:nth-child(2){
+                            a{
+                                background-color: #f40;
+                            }
+                        }
+                        li:nth-child(3){
+                            a{
+                                background-color: #359BED;
+                            }
+                        }
+                        li:nth-child(4){
+                            a{
+                                background-color: #027BA5;
+                            }
+                        }
+                        li:nth-child(5){
+                            a{
+                                background-color: #FD9F13;
+                            }
+                        }
+                        li:last-of-type{
+                            a{
+                                background-color: #3F729B;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .hwj_foot_part2{
+        .container{
+            margin-top: 50px;
+            padding-bottom: 60px;
+            color: @color2;
+            .hwj_foot_logo{
+                text-align: center;
+            }
+            .hwj_foot_address{
+                margin-top: 20px;
+
+                font-size: 14px;
+                >div{
+                    margin-top: 10px;
+                    span{
+                        text-align: center;
+                        width:35px;
+                        height:35px;
+                        border:1px solid @color2;
+                        line-height: 35px;
+                    }
+                }
+            }
+        }
+    }
+    .hwj_foot_part3{
+        background-color: @color4;
+        .container{
+            padding-top:20px;
+            color: @color2;
+            .hwj_foot_bottom{
+                text-align: left;
+            }
+            .hwj_foot_pay{
+                text-align: right;
+                ul{
+                    overflow: hidden;
+                    display: inline-block;
+                    li{
+                        float: left;
+                        margin-left: 10px;
+                        img{
+                            width:40px;
+                        }
+                    }
+                }
+
+
+            }
+        }
+
+    }
+}
+@media screen and (min-width: 768px) {
+    .hwj_foot .hwj_foot_part1 .container{
+        padding:0;
+        padding-top: 25px;
+    }
+}
+@media screen and (max-width: 768px){
+    .hwj_foot_bottom,.hwj_foot_pay{
+        text-align: center !important;
+    }
+    .hwj_foot_pay{
+        margin-top: 10px;
+    }
+}

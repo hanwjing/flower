@@ -1,0 +1,106 @@
+@charset "utf-8";
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 56.53333333px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 64px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 72px;
+  }
+}
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 85.33333333px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 96px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 100px;
+  }
+}
+.hwj_nav {
+  background-color: #F8F8F8;
+  padding-top: 35px;
+}
+.hwj_nav .container {
+  border-radius: 7px;
+  background-color: #E62162;
+  overflow: hidden;
+}
+.hwj_nav .container .hwj_nav_info {
+  text-align: center;
+}
+.hwj_nav .container .hwj_nav_info #hwj_nav_ul {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+.hwj_nav .container .hwj_nav_info #hwj_nav_ul li {
+  float: left;
+}
+.hwj_nav .container .hwj_nav_info #hwj_nav_ul li a {
+  display: inline-block;
+  padding: 18px 0 16px;
+  font-size: 15px;
+  color: #fff;
+}
+.hwj_nav .container .hwj_nav_info #hwj_nav_ul li a:hover {
+  color: #fff !important;
+}
+.hwj_nav .container .hwj_nav_info #hwj_nav_ul li a span {
+  padding: 0 18px;
+  border-right: 1px solid #f7558b;
+}
+.hwj_nav .container .hwj_nav_info #hwj_nav_ul li:last-of-type span {
+  border: none;
+}
+@media screen and (max-width: 1200px) {
+  .hwj_nav .container {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hwj_nav .container .hwj_nav_info #hwj_nav_ul li a span {
+    padding: 0 6px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hwj_nav {
+    padding-top: 2px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hwj_nav .hwj_nav_shrink {
+    position: absolute;
+    font-size: 18px;
+    left: 15px;
+    top: 65px;
+    z-index: 99;
+  }
+}
+.hwj_branch .container ul {
+  margin-left: -20px;
+  margin-bottom: 0;
+  padding: 18px 0;
+  overflow: hidden;
+  width: 100%;
+}
+.hwj_branch .container ul li {
+  float: left;
+}
+.hwj_branch .container ul li a,
+.hwj_branch .container ul li span {
+  font-size: 12px;
+  color: #777;
+}

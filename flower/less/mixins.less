@@ -1,0 +1,12 @@
+.adapterMixin(@index) when (@index > 0){
+  @media screen and (min-width: extract(@adapterList,@index)) {
+    html{
+      font-size:extract(@adapterList,@index) * @baseSize / @psdWidth ;
+    }
+  }
+  //递归的思路来实现的
+  .adapterMixin(@index - 1);
+}
+
+.adapterMixin(@len);
+

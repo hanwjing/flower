@@ -1,0 +1,14 @@
+.hwj_logo {
+  padding: 5px 0;
+}
+.hwj_logo .container {
+  background-color: #F8F8F8;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.hwj_logo .container .hwj_logo_box {
+  width: 4340px;
+}
+.hwj_logo .container .hwj_logo_box > div {
+  float: left;
+}

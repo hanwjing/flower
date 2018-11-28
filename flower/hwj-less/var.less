@@ -1,0 +1,27 @@
+@charset "utf-8";
+@color: #E62162;
+@color2: #A7A3A4;
+@color3: #fff;
+@color4: #1B2127;
+@color5: #f8f8f8;
+
+@adapterList:750px,720px,640px,540px,480px,424px;
+
+//设计稿尺寸
+@psdWidth:750px;
+@baseSize:100px;
+
+//求设备列表的长度
+@len:length(@adapterList);
+
+.adapterMixin(@index) when (@index > 0){
+  @media screen and (min-width: extract(@adapterList,@index)) {
+      html{
+          font-size:extract(@adapterList,@index) * @baseSize / @psdWidth ;
+      }
+  }
+  //递归的思路来实现的
+  .adapterMixin(@index - 1);
+}
+
+.adapterMixin(@len);

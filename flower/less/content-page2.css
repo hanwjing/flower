@@ -1,0 +1,66 @@
+@charset "utf8";
+.content-page2 .container .category-product > .nav-menu > .navbar-collapse {
+  position: relative;
+  text-align: center;
+}
+.content-page2 .container .category-product > .nav-menu > .navbar-collapse > .jtv-title {
+  text-align: center;
+}
+.content-page2 .container .category-product > .nav-menu > .navbar-collapse > ul {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 0.05rem;
+  text-align: center;
+}
+.content-page2 .container .category-product > .nav-menu > .navbar-collapse > ul > li {
+  display: inline-block;
+  font-weight: bold;
+  padding: 0 0.1rem;
+  /*width: 20%;*/
+  text-align: center;
+}
+.content-page2 .container .category-product > .nav-menu > .navbar-collapse > ul > li.active {
+  opacity: 1;
+  visibility: inherit;
+  position: inherit;
+  -vendor-animation-duration: 0.3s;
+  -vendor-animation-delay: 1s;
+  -vendor-animation-iteration-count: infinite;
+}
+.content-page2 .container .category-product > .nav-menu > .navbar-collapse > ul > li.active > a {
+  color: #e62263;
+}
+.content-page2 .container .category-product > .tab-container > .tab-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+.content-page2 .container .category-product > .tab-container > .tab-panel.active {
+  opacity: 1;
+  visibility: inherit;
+  position: inherit;
+  -vendor-animation-duration: 0.3s;
+  -vendor-animation-delay: 1s;
+  -vendor-animation-iteration-count: infinite;
+}
+.content-page2 .container .category-product > .tab-container > .tab-panel > .category-products > .products-grid > li {
+  padding: 0 0.1rem;
+}
+.content-page2 .container .category-product > .tab-container > .tab-panel > .category-products > .products-grid > li:hover img {
+  transition: all 1.6s;
+  opacity: 0.4;
+  transform: scale(1.2, 1.2);
+}
+.content-page2 .container .category-product > .tab-container > .tab-panel > .category-products > .products-grid > li:hover button {
+  background-color: #e62263 !important;
+  border: 1px solid #e62263 !important;
+  color: #fff;
+}
+.content-page2 .container .category-product > .tab-container > .tab-panel > .category-products > .products-grid > li:hover .jtv-box-hover {
+  transform: scale(1) !important;
+  opacity: 1 !important;
+}

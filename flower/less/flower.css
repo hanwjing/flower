@@ -1,0 +1,65 @@
+@charset "utf8";
+.flower {
+  margin-top: 0.35rem;
+}
+.flower .container .row > div {
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  height: 2.7rem;
+}
+.flower .container .row > div:nth-of-type(2) {
+  padding: 0 0.5rem 0.26rem 0.5rem;
+  background-color: #e62263;
+}
+.flower .container .row > div:nth-of-type(4) {
+  padding: 0 0.5rem 0.26rem 0.5rem;
+  background-color: #6f26ac;
+}
+.flower .container .row > div:nth-of-type(6) {
+  padding: 0 0.5rem 0.26rem 0.5rem;
+  background-color: #b5b400;
+}
+.flower .container .row > div > img {
+  width: 100%;
+  height: 100%;
+}
+.flower .container .row > div > h2 {
+  /*font-size: 30px;*/
+}
+.flower .container .row > div > hr {
+  position: relative;
+  left: 23%;
+  width: 50%;
+  text-align: center;
+  color: #fff;
+}
+.fly {
+  margin-top: 0.5rem;
+  background-color: #e62263;
+  color: #fff;
+}
+.fly .container .row > div {
+  font-size: 0.18rem;
+  text-align: center;
+  position: relative;
+}
+.fly .container .row > div > .glyphicon {
+  position: absolute;
+  text-align: center;
+  top: -40%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0.8rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.4rem;
+  background-color: #e62263;
+  border-radius: 50% 50%;
+  margin-bottom: 0.5rem;
+}
+.fly .container .row > div > span:nth-of-type(2) {
+  display: inline-block;
+  height: 1rem;
+  padding-top: 0.35rem;
+}

@@ -1,0 +1,474 @@
+@import "var";
+.hwj_section{
+    .container{
+        .row{
+            .hwj_section_right{
+                padding:0 15px;
+                background-color: @color3 !important;
+                overflow: hidden;
+                .carousel{
+                    margin-bottom: 5px;
+                    padding:0 15px;
+                    background-color: @color3 !important;
+                    .carousel-inner {
+                        background-color: @color3 !important;
+                        a{
+                            background-position: center;
+                            background-size: cover;
+                            width: 100%;
+                            height: 300px;
+                            display: block;
+                        }
+                    }
+                    >a{
+                        margin-left: 15px;
+                        margin-right: 15px;
+                        width:50px !important;
+                    }
+                }
+                .hwj_sRow1_1{
+                    padding:0 15px;
+                    .hwj_sRom_romance{
+                        margin-top: -5px;
+                        >div{
+                            margin-top: 10px;
+                            //span {
+                            //    padding: 8px;
+                            //    border: 1px solid #ccc;
+                            //}
+                            &.hwj_sSpan_1{
+                                margin-left: -15px;
+                                span{
+                                    padding: 8px;
+                                    border: 1px solid #ccc;
+                                    &:first-of-type{
+                                        color: @color;
+                                    }
+                                    &:last-of-type{
+                                        border:none;
+                                    }
+                                }
+                            }
+                            &.hwj_sSpan_2{
+                                font-size: 14px;
+                                span{
+                                    &:last-of-type{
+                                        //float: right;
+                                    }
+                                    &:first-of-type{
+                                        display:inline-block;
+                                        padding:6px 0;
+                                        margin-right: 15px;
+                                    }
+                                    select{
+                                        padding:5px 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .hwj_section_main{
+                    margin-top: 25px;
+                    .hwj_sMain_product{
+                        >li{
+                            margin-bottom: 25px;
+                            .hwj_sMain_inner{
+                                border:1px solid #ccc;
+                                margin-left: -15px;
+                                width:269px;
+                                height:403px;
+                                overflow: hidden;
+                                position: relative;
+                                .hwj_sMain1-1{
+                                    width:267px;
+                                    height: 267px;
+                                    overflow: hidden;
+                                    position: relative;
+                                    a{
+                                        width:100%;
+                                        height:100%;
+                                        img{
+                                            position: relative;
+                                            width:100%;
+                                            height:100%;
+                                            transition: transform 1.5s ease;
+                                        }
+                                    }
+                                    .hwj_sMain_outer{
+                                        display: none;
+                                        z-index: 9;
+                                        overflow: hidden;
+                                        top:0;
+                                        left:0;
+                                        position: absolute;
+                                        width:100%;
+                                        height:100%;
+                                        transition: transform 1.5s ease;
+                                        background: rgba(255,255,255,0.4);
+                                        ul{
+                                            li{
+                                                position: absolute;
+                                                float: left;
+                                                top:50%;
+                                                transform:translateY(-50%);
+                                                a{
+                                                    padding:10px 12px;
+                                                    background-color: purple;
+                                                    color:@color3;
+                                                    margin:0 20px;
+                                                    font-size: 16px;
+                                                    &:hover{
+                                                        color:#fff !important;
+                                                    }
+                                                }
+                                                &:first-of-type{
+                                                    left:45px;
+                                                }
+                                                &:nth-child(2){
+                                                    left: 95px;
+                                                }
+                                                &:last-of-type{
+                                                    left:145px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .hwj_sMain1-2{
+                                    position: relative;
+                                    text-align: center;
+                                    font-weight:600;
+                                    a{
+                                        font-size: 15px;
+                                    }
+                                    >span{
+                                        display: block;
+                                        font-size: 15px;
+                                        color: @color;
+                                        font-weight:700;
+                                    }
+                                    button{
+                                        margin-top: 7px;
+                                        padding:5px 6px ;
+                                        font-size: 13px;
+                                        background-color: @color3;
+                                        border:1px solid #ccc;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .hwj_section_left{
+                margin-left: -15px;
+                .hwj_section_partCommon{
+                    background-color: @color5;
+                    border:1px solid #ccc;
+                    margin:0 0 25px 0;
+                    .hwj_sPart1_common{
+                        p{
+                            border-bottom:1px solid #ccc;
+                            font-size: 16px;
+                            font-weight: 600;
+                            padding:15px 18px 12px;
+                        }
+                        ul{
+                            background-color: @color3;
+                            padding: 10px 15px 10px;
+                            margin: -10px 0 0 0;
+                            color:#515151;
+                            li{
+                                padding:6px 0 7px 0;
+                                dd{
+                                    margin:2px 0;
+                                    span{
+                                        color: @color2;
+                                        font-size: 8px;
+                                    }
+                                    a{
+                                        color: #7c7c7c;
+                                        font-size: 12px;
+                                        font-weight: 600;
+                                    }
+                                }
+                                input{
+                                    width:11px;
+                                    height:11px;
+                                    border-radius: 3px;
+                                    border:1px solid #ccc;
+                                    background-color: #dfdfdf;
+                                }
+                                h5{
+                                    font-size: 13px ;
+                                }
+                                button{
+                                    font-size: 12px;
+                                    font-weight: 600;
+                                    padding:8px 15px;
+                                    border:1px solid #ccc;
+                                    background-color: @color3;
+                                }
+                            }
+                        }
+                    }
+                    .hwj_sPart2_1{
+                        input{
+                            background-color:#fafafa !important;
+                        }
+                    }
+                    .hwj_sPart3_1{
+                        li{
+                            padding:3px 0 !important;
+                            &:nth-child(3){
+                                padding:0 !important;
+                                border-bottom:1px solid #cacaca;
+                                h5{
+                                    font-size: 12px !important;
+                                }
+                            }
+                            &:last-of-type{
+                                border:none !important;
+                            }
+                        }
+                        .hwj_img_pic{
+                            margin-top: 10px;
+                            padding-bottom:10px !important;
+                            border-bottom:1px solid #cacaca;
+                            a{
+                                display: inline-block;
+                                margin-right: 10px ;
+                                img{
+                                    width:80px;
+                                    border:1px solid #ccc;
+                                }
+                            }
+                            .hwj_section_Pimg{
+                                display: inline-block;
+                                span:last-of-type{
+                                    float: right;
+                                }
+                                a{
+                                    display: block;
+
+                                }
+                            }
+                        }
+                    }
+                    .hwj_sPart4_1{
+                        ul{
+                            li{
+                                dd{
+                                    padding:3px 0;
+                                    span{
+                                        &.glyphicon-remove{
+                                            color:#444;
+                                            float: right;
+                                            font-size: 13px  !important;
+                                            font-weight: 500 !important;
+                                        }
+                                    }
+                                }
+                                button{
+                                    &:last-of-type{
+                                        color:@color3;
+                                        background-color: @color;
+                                        border:1px solid @color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .hwj_sPart7_1{
+                        ul{
+                            li{
+                                input{
+                                    width:13px !important;
+                                    height:13px !important;
+                                    border-radius: 50% !important;
+                                }
+                            }
+                        }
+                    }
+                    .hwj_sPart8_1{
+                        ul{
+                            li{
+                                span{
+                                    display: inline-block;
+                                    margin-bottom:8px;
+                                    a{
+                                        padding:2px 6px;
+                                        background-color: #f3f3f3;
+                                    }
+                                }
+                                &:last-of-type{
+                                    overflow: hidden;
+                                    a{
+                                        float: right;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .hwj_sPart5_1{
+                    margin-bottom: 25px;
+                    border:1px solid #ccc;
+                    background-color: @color3 !important;
+                    .carousel{
+                        padding:5px;
+                        .carousel-inner{
+                            position: relative;
+                            a{
+                                position: relative;
+                                background-position: center;
+                                background-size: cover;
+                                width: 100%;
+                                height: 339px;
+                                display: block;
+                                overflow: hidden;
+                                &:hover{
+                                    color:@color2;
+                                }
+                                .hwj_sItem_inner{
+                                    position: absolute;
+                                    height:120px;
+                                    color: @color3;
+                                    text-align: center;
+                                    margin-top: 50px;
+                                    h2{
+                                        padding-left: 12px;
+                                    }
+                                    p{
+                                        font-size: 16px;
+                                    }
+                                    button{
+                                        margin-top: 25px;
+                                        padding:3px 6px;
+                                        font-size: 12px;
+                                        background-color: transparent;
+                                        border:1px solid @color3;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1200px){
+    .hwj_sPart5_1 .carousel-inner a{
+        height:271px !important;
+    }
+    .hwj_sRom_romance .hwj_sSpan_2{
+        padding:0 10px !important;
+    }
+    .hwj_sMain_inner{
+        width:217px !important;
+        height:333px !important;
+    }
+    .hwj_sMain_inner .hwj_sMain1-1{
+        width:217px !important;
+        height:217px !important;
+    }
+}
+@media screen and (max-width: 992px){
+    .hwj_sPart5_1 .carousel-inner a{
+        height:197px !important;
+    }
+    .hwj_sPart5_1 .carousel-inner a .hwj_sItem_inner{
+        margin-top: 35px !important;
+    }
+    .hwj_sPart5_1 .carousel-inner a .hwj_sItem_inner button{
+        margin-top: 5px !important;
+    }
+    .hwj_section .container .hwj_section_left{
+        margin-left: 0px !important;
+    }
+    .hwj_sRom_romance .hwj_sSpan_2{
+        padding:0  !important;
+    }
+    .hwj_sMain_inner{
+        width:254px !important;
+        height:373px !important;
+    }
+    .hwj_sMain_inner .hwj_sMain1-1{
+        width:254px !important;
+        height:254px !important;
+    }
+}
+@media screen and (max-width: 768px){
+    .hwj_sPart5_1 .carousel-inner a{
+        height:340px !important;
+    }
+    .hwj_sPart5_1 .carousel-inner a .hwj_sItem_inner{
+        margin-top: 50px !important;
+        padding-left: 110px !important;
+    }
+    .hwj_sPart5_1 .carousel-inner a .hwj_sItem_inner button{
+        margin-top: 25px !important;
+    }
+    .hwj_section_right{
+        margin-bottom: 25px;
+    }
+    .hwj_section .container .hwj_section_left{
+        margin-left: 0px !important;
+    }
+    .hwj_sRom_romance .hwj_sSpan_2 select{
+        width:100% !important;
+    }
+    .hwj_sMain_inner{
+        width:313px !important;
+        height:429px !important;
+    }
+    .hwj_sMain_inner .hwj_sMain1-1{
+        width:313px !important;
+        height:313px !important;
+    }
+}
+@media screen and (max-width: 750px){
+    .hwj_sMain_inner{
+        width:3.2rem !important;
+        height:5rem !important;
+    }
+    .hwj_sMain_inner .hwj_sMain1-1{
+        width:3.2rem !important;
+        height:3.2rem !important;
+    }
+    .hwj_sMain_outer ul>li:first-of-type{
+        left:0.2rem !important;
+    }
+    .hwj_sMain_outer ul>li:nth-child(2){
+        left:1.0rem !important;
+    }
+    .hwj_sMain_outer ul>li:last-of-type{
+        left:1.80rem !important;
+    }
+    .hwj_sPart5_1 .carousel-inner a .hwj_sItem_inner{
+        margin-top: 50px !important;
+        padding-left: 0.7rem !important;
+    }
+
+}
+@media screen and (max-width: 460px){
+    .hwj_sMain_inner{
+        width:410px !important;
+        height:515px !important;
+    }
+    .hwj_sMain_inner .hwj_sMain1-1{
+        width:410px !important;
+        height:410px !important;
+    }
+    .hwj_sMain_outer ul>li:first-of-type{
+        left:1.8rem !important;
+    }
+    .hwj_sMain_outer ul>li:nth-child(2){
+        left:2.7rem !important;
+    }
+    .hwj_sMain_outer ul>li:last-of-type{
+        left:3.6rem !important;
+    }
+}

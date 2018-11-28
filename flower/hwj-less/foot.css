@@ -1,0 +1,164 @@
+@charset "utf-8";
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 56.53333333px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 64px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 72px;
+  }
+}
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 85.33333333px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 96px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 100px;
+  }
+}
+.hwj_foot {
+  background-color: #283139;
+  color: #fff;
+}
+.hwj_foot .hwj_foot_part1 .container {
+  padding-top: 25px;
+}
+.hwj_foot .hwj_foot_part1 .container .hwj_foot_ulCommon a {
+  display: inline-block;
+  color: #A7A3A4;
+  padding: 7px 0;
+}
+.hwj_foot .hwj_foot_part1 .container .hwj_foot_ulCommon span {
+  color: #A7A3A4;
+}
+.hwj_foot .hwj_foot_part1 .container .hwj_foot_4 p {
+  color: #A7A3A4;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.hwj_foot .hwj_foot_part1 .container .hwj_foot_4 form {
+  margin: 20px 0;
+}
+.hwj_foot .hwj_foot_part1 .container .hwj_foot_4 form input {
+  width: 230px;
+  padding: 10px 12px;
+  border-radius: 3px;
+  margin: 0 10px 10px 0;
+}
+.hwj_foot .hwj_foot_part1 .container .hwj_foot_4 form button {
+  padding: 8px 12px 8px 12px;
+  background-color: #E62162;
+  color: #fff;
+  border: 3px solid #E62162;
+  font-size: 12px;
+  font-weight: 600;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.hwj_foot .hwj_foot_part1 .container .hwj_foot_4 form button span {
+  margin-right: 6px;
+}
+.hwj_foot .hwj_foot_part1 .container .hwj_foot_4 .hwj_foot_fonts ul li {
+  margin: 10px 10px 10px 0;
+  float: left;
+}
+.hwj_foot .hwj_foot_part1 .container .hwj_foot_4 .hwj_foot_fonts ul li a {
+  padding: 8px 13px;
+  color: #fff;
+  border-radius: 3px;
+}
+.hwj_foot .hwj_foot_part1 .container .hwj_foot_4 .hwj_foot_fonts ul li a:hover {
+  color: #fff !important;
+}
+.hwj_foot .hwj_foot_part1 .container .hwj_foot_4 .hwj_foot_fonts ul li:first-child a {
+  background-color: #3C5B9B;
+}
+.hwj_foot .hwj_foot_part1 .container .hwj_foot_4 .hwj_foot_fonts ul li:nth-child(2) a {
+  background-color: #f40;
+}
+.hwj_foot .hwj_foot_part1 .container .hwj_foot_4 .hwj_foot_fonts ul li:nth-child(3) a {
+  background-color: #359BED;
+}
+.hwj_foot .hwj_foot_part1 .container .hwj_foot_4 .hwj_foot_fonts ul li:nth-child(4) a {
+  background-color: #027BA5;
+}
+.hwj_foot .hwj_foot_part1 .container .hwj_foot_4 .hwj_foot_fonts ul li:nth-child(5) a {
+  background-color: #FD9F13;
+}
+.hwj_foot .hwj_foot_part1 .container .hwj_foot_4 .hwj_foot_fonts ul li:last-of-type a {
+  background-color: #3F729B;
+}
+.hwj_foot .hwj_foot_part2 .container {
+  margin-top: 50px;
+  padding-bottom: 60px;
+  color: #A7A3A4;
+}
+.hwj_foot .hwj_foot_part2 .container .hwj_foot_logo {
+  text-align: center;
+}
+.hwj_foot .hwj_foot_part2 .container .hwj_foot_address {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.hwj_foot .hwj_foot_part2 .container .hwj_foot_address > div {
+  margin-top: 10px;
+}
+.hwj_foot .hwj_foot_part2 .container .hwj_foot_address > div span {
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #A7A3A4;
+  line-height: 35px;
+}
+.hwj_foot .hwj_foot_part3 {
+  background-color: #1B2127;
+}
+.hwj_foot .hwj_foot_part3 .container {
+  padding-top: 20px;
+  color: #A7A3A4;
+}
+.hwj_foot .hwj_foot_part3 .container .hwj_foot_bottom {
+  text-align: left;
+}
+.hwj_foot .hwj_foot_part3 .container .hwj_foot_pay {
+  text-align: right;
+}
+.hwj_foot .hwj_foot_part3 .container .hwj_foot_pay ul {
+  overflow: hidden;
+  display: inline-block;
+}
+.hwj_foot .hwj_foot_part3 .container .hwj_foot_pay ul li {
+  float: left;
+  margin-left: 10px;
+}
+.hwj_foot .hwj_foot_part3 .container .hwj_foot_pay ul li img {
+  width: 40px;
+}
+@media screen and (min-width: 768px) {
+  .hwj_foot .hwj_foot_part1 .container {
+    padding: 0;
+    padding-top: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hwj_foot_bottom,
+  .hwj_foot_pay {
+    text-align: center !important;
+  }
+  .hwj_foot_pay {
+    margin-top: 10px;
+  }
+}

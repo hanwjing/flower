@@ -1,0 +1,118 @@
+.hwj_head{
+    width:100%;
+    background-color: #F8F8F8;
+    .hwj_container{
+        border-bottom: 1px solid #ccc;
+        color: #777;
+        a{
+            color: #777;
+        }
+        width:100%;
+        .row{
+            width:100%;
+            padding-top:8px;
+            .hwj_head_language,.hwj_head_money{
+                display: inline-block !important;
+                margin:0 14px 8px 0 ;
+
+                li{
+                    border-bottom:1px solid #ccc;
+                    &:last-of-type{
+                        border:none;
+                    }
+                }
+                //li:last-child{
+                //    border:none;
+                //}
+            }
+            .hwj_head_welcome{
+                margin:0 14px 8px 0 ;
+                float: left;
+                vertical-align: top;
+            }
+            .hwj_head_count{
+                text-align: right;
+                width: 100%;
+                ul{
+                    li{
+                        display: inline-block;
+                        margin:0 5px;
+                    }
+                }
+            }
+        }
+    }
+    .container{
+        .row{
+            width:100%;
+            .hwj_head_contain{
+                width:100%;
+                margin-top:36px;
+                .hwj_head_cart{
+                    width:100%;
+                    .hwj_head_bags{
+                        a{
+                            font-size: 12px;
+                            display: inline-block;
+                            padding:12px 14px;
+                            height: 40px;
+                            border:1px solid #ccc;
+                            background-color: #fff;
+                            border-radius: 3px;
+                            line-height: 17px;
+                            &:hover{
+                                color:#333 !important;
+                            }
+                            span:first-child{
+                                color: #B5B400;
+                                font-size: 15px;
+                            }
+                            .hwj_head_num{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+                .hwj_head_logo{
+                    text-align: center;
+                }
+                .hwj_head_form{
+                    form{
+                        text-align: right;
+                        input{
+                            height:40px;
+                            width:98%;
+                            padding-left: 10px;
+                            border:1px solid #ccc;
+                            border-radius: 5px;
+                        }
+                        button{
+                            padding:6px 3px;
+                            border:none;
+                            background-color: #fff;
+                            margin-left: -40px;
+                            span{
+                                color:#B5B400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 480px){
+    .hwj_head_cart{
+        text-align: right;
+        position: absolute;
+        z-index: 99;
+        top:-20px;
+        right:10px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 480px){
+    .hwj_head_pic{
+        margin-top: -20px;
+        padding-bottom: 15px;
+    }
+}
